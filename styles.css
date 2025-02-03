@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe4e1;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.hidden {
+    display: none;
+}
+.birthday-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.birthday-message {
+    font-size: 18px;
+    color: #d63384;
+}
